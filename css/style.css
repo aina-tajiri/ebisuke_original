@@ -66,34 +66,44 @@ header{
     overflow: hidden;
     background-image: url(/img/FV_pc.jpg);
     background-size: cover;
-    height: 790px;
+    height: 789px;
 
+}
+
+.first_view img {
+    position: absolute;
+    bottom: 4vh;
+    left: 14vw;
+    width: 50px;
 }
 
 .site_title{
     position: absolute;
-    bottom: 10vh;
-    left: 29vw;
-    width: 530px;
-    height: 530px;
-    background-color: rgba(255, 255, 255, 0.4);
+    bottom: 12.5vh;
+    left: 31vw;
+    width: 500px;
+    height: 430px;
+    background-color: rgba(255, 255, 255, 0.55);
     text-align: center;
     font-family: '筑紫B丸ゴシック';
+    font-size: 75px;
     color: #172852;
+    line-height: 120px;
+    padding-top: 75px;
 }
 
 .fv_button{
     position: absolute;
-    bottom: 9vh;
-    right: 11vw;
-    width: 140px;
+    bottom: 12vh;
+    right: 12vw;
+    width: 110px;
     display: block;
     background:#fff;
     color: #172852;
-    font-size: 32px;
+    font-size: 30px;
     font-family: '筑紫B丸ゴシック';
     text-decoration: none;
-    padding: 40px 20px;
+    padding: 40px 30px;
     border-radius: 100px;
     text-align: center;
     letter-spacing: 4px;
@@ -108,6 +118,7 @@ header{
     position: relative;
     height: 590px;
     margin-top: 150px;
+    margin-bottom: 145px;
 }
 
 .relative{
@@ -162,9 +173,10 @@ header{
     padding-left: 8px;
 }
 
-.step_section, .recipe_section, .more_section {
-    padding-top: 90px;
-    margin-top: 60px;
+.step_section, .more_section,.recipe_section{
+    padding-top: 100px;
+    margin-top: -100px;
+    margin-bottom: 140px;
 }
 
 .title{
@@ -172,6 +184,39 @@ header{
     color: #172852;
     font-size: 60px;
     text-align: center;
+}
+
+.step_container{
+    position: relative;
+    padding: 0 13vw;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin-top: 140px;
+}
+
+.number h3 {
+    position: absolute;
+    font-family: 'Odalisque', sans-serif;
+    color: #172852;
+    font-size: 48px;
+    letter-spacing: 3px;
+}
+
+.step_container img{
+    width: 200px;
+}
+
+.txbox p {
+    color: #172852;
+    font-family: '筑紫B丸ゴシック';
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.even_box{
+    padding-top: 90px;
 }
 
 .section_text p {
@@ -185,18 +230,13 @@ header{
     line-height: 40px;
 }
 
-.botton{
+.button{
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
-
-.resipe_list{
-    overflow: hidden;
+    margin: 40px 0px;
 }
 
 .recipe_list li{
-    padding: 20px;
+    padding: 20px 40px;
     list-style-type: none;
     display: inline-block;
 }
@@ -226,12 +266,12 @@ header{
 
 .space{
     display: block;
-    padding-top: 110px;
-    margin-top: -110px;
+    padding-top: 95px;
+    margin-top: -95px;
 }
 
 .recipe_content{
-    margin-top: 80px;
+    margin-top: 90px;
 }
 
 .recipe_box{
@@ -277,6 +317,7 @@ header{
 
 .recipe_pic{
     width: 500px;
+    margin-bottom: 30px;
 }
 
 .image_text_box{
@@ -288,15 +329,14 @@ header{
 .info_button_box{
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 .item_info{
     display: flex;
     justify-content: space-between;
-    flex-flow: row wrap;
     width: 500px;
     margin-top: 30px;
-    margin-right: 60px
 }
 
 .item_info h3 {
@@ -339,10 +379,6 @@ header{
 .star5_rating[data-rate="1.5"]:after{ width: 30%; }
 .star5_rating[data-rate="1"]:after{ width: 20%; }
 
-.item_button{
-    width: 431px;
-}
-
 .recipe_button{
     font-family: '筑紫B丸ゴシック';
 	position: relative;
@@ -352,14 +388,15 @@ header{
 	color:#172852;
     padding: 10px 100px 10px 50px;
     border: 2px solid #172852;
-	border-radius:50px;
+	border-radius: 100px;
     text-align: center;
     outline: none;
     letter-spacing: 3px;
     font-size: 28px;
     transition: ease .2s;
     margin-top: 50px;
-    margin-left: 60px;
+    margin-left: 55px;
+    margin-right: 70px;
 }
 
 .recipe_button:hover{
@@ -392,7 +429,7 @@ header{
     height: 70px;
     border:2px solid #172852;
     border-radius: 100px;
-    margin-top: 80px;
+    margin-top: 60px;
     transition: 0.3s;
 }
 
@@ -408,7 +445,7 @@ header{
     text-decoration: none;
   }
 
-  .arrow::before {
+.arrow::before {
     content: '';
     width: 25px;
     height: 25px;
@@ -428,6 +465,7 @@ header{
     font-size: 21px;
     letter-spacing: 2px;
     line-height: 40px;
+    width: 480px;
 }
 
 .more_title{
@@ -437,12 +475,14 @@ header{
     text-align: center;
     margin: 70px 0px 50px 0px;
     letter-spacing: 3px;
-     
 }
 
 .more_container{
     display: flex;
-    padding: 70px 240px 70px 240px;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin-top: 70px;
+    margin-bottom: 140px;
 }
 
 .more_container img {
@@ -450,26 +490,26 @@ header{
     height: 380px;
 }
 
-.more_container:nth-child(odd) {
+.more_container:nth-child(even) {
     flex-direction: row-reverse;
 }
 
 
 
-.more_container:nth-child(odd) .more_text {
-    padding-right: 100px;
-}
-
 .more_container:nth-child(even) .more_text {
-    padding-left: 100px;
+    padding-right: 165px;
 }
 
-.more_container:nth-child(odd) .more_title {
-    padding-right: 100px;
+.more_container:nth-child(odd) .more_text {
+    padding-left: 165px;
 }
 
 .more_container:nth-child(even) .more_title {
-    padding-left: 100px;
+    padding-right: 165px;
+}
+
+.more_container:nth-child(odd) .more_title {
+    padding-left: 165px;
 }
 
 .page_top{
@@ -486,7 +526,7 @@ header{
     letter-spacing: 3px;
     font-size: 28px;
     transition: ease .2s;
-    margin: 130px auto 190px auto;
+    margin: 190px auto 180px auto;
     display: block;
     width: 430px;
     border-radius: 18px;

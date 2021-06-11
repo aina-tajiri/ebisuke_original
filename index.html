@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="ja">
-<link rel="stylesheet" href=" ./css/style.css">    
+<html lang="ja">    
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href=" ./css/style.css">
+    <link href="http://fonts.cdnfonts.com/css/odalisque" rel="stylesheet">
     <title>お菓子作りでおうち時間を豊かにするサイト</title>
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/odalisque');
+    </style>
+
 </head>
 
 
@@ -17,16 +22,23 @@
     </ul>
 </header>
 
-<body>   
+<body>
 
     <section class="first_section">
 
         <div class="first_view">
-            <div class="site_title"><p></p></div>
+            <a href="#second">
+                <img src="/img/scroll.png">
+            </a>
+            <div class="site_title">
+                <p>サイトの<br>なまえを<br>決めろ!!</p>
+            </div>
             <a class="fv_button" href="#recipe_jump">レシピをみる</a>
         </div>
 
     </section>
+
+    <div id="second"></div>
 
     <section class="second_section">
 
@@ -51,6 +63,57 @@
     <section class="step_section" id="step">   
 
         <h2 class="title">STEP</h2>
+        
+        <div class="step_container">
+            <div class="odd_box">
+                <div class="number">
+                    <h3>01</h3>
+                </div>
+                <div class="img_box">
+                    <img src="/img/step_01.png">
+                </div>
+                <div class="txbox">
+                    <p>気分に合わせて<br>
+                        レシピを選ぶ</p>
+                </div>
+            </div>
+            <div class="even_box">
+                <div class="number">
+                    <h3>02</h3>
+                </div>
+                <div class="img_box">
+                    <img src="/img/step_sample.png">
+                </div>
+                <div class="txbox">
+                    <p>レシピを見て<br>
+                        作ってみる</p>
+                </div>
+            </div>
+            <div class="odd_box">
+                <div class="number">
+                    <h3>03</h3>
+                </div>
+                <div class="img_box">
+                    <img src="/img/step_sample.png">
+                </div>
+                <div class="txbox">
+                    <p>お気に入りの飲み物や<br>
+                        本などを準備して...</p>
+                </div>
+            </div>
+            <div class="even_box">
+                <div class="number">
+                    <h3>04</h3>
+                </div>
+                <div class="img_box">
+                    <img src="/img/step_sample.png">
+                </div>
+                <div class="txbox">
+                    <p>素敵なおうち時間を<br>
+                        楽しみましょう！</p>
+                </div>
+            </div>
+        </div>
 
     </section>
 
@@ -63,7 +126,8 @@
             気分やシチュエーションに合わせた6つのレシピをご用意しました。</p>
         </div>    
 
-        <div class="botton">
+        <div class="button">
+
             <ul class="recipe_list">
                 <li><a href="#pudding">自分を甘やかしたい日に</a></li>   
                 <li><a href="#ice-cream">リフレッシュしたい日に</a></li>
@@ -76,6 +140,7 @@
                 <li><a href="#pancake">ちょっと特別な休日に</a></li>
                 <li><a href="#sandwich">気分を上げたい日に</a></li>
             </ul>
+
         </div>
         
         <div class="recipe_content">
@@ -123,7 +188,7 @@
                 </div>
                 <div class="info_button_box">
                     <div class="item_info">
-                        <h3>所要時間 約30分</h3>
+                        <h3 class="info_space">所要時間 約30分</h3>
                         <h3>難易度 <span class="star5_rating" data-rate="2.5"></span></h3>
                     </div>    
                     <div class="item_button">
@@ -188,7 +253,7 @@
 
             <div class="recipe_box">
                 <div class="image_text_box">
-                    <img src="/img/pudding.jpg" class="recipe_pic">   
+                    <img src="/img/pancake.jpg" class="recipe_pic">   
                     <div class="item_text">
                         <h3>ちょっと特別な休日の</h3>
                         <h1 class="recipe_title">ふわふわスフレパンケーキ</h1>
@@ -266,7 +331,7 @@
         </div>
 
         <div class="more_container">
-            <img src="/img/book.png">
+            <img src="/img/more_sample.png">
             <div class="more_text_box">   
                 <h3 class="more_title">2.　映画を観ながら。</h3>
                 <p class="more_text">
@@ -289,7 +354,7 @@
         </div>    
 
         <div class="more_container">
-            <img src="/img/book.png">
+            <img src="/img/more_sample.png">
             <div class="more_text_box">            
                 <h3 class="more_title">4.　家族と一緒に。</h3>
                 <p class="more_text">
@@ -298,10 +363,10 @@
                 話を楽しんでみ。取り分けて食べられるスコ
                 ップケーキやアイスクリームなどが良いかも。</p>
             </div>
-        </div>    
+        </div>
 
         <div class="more_container">
-            <img src="/img/book.png">
+            <img src="/img/more_sample.png">
             <div class="more_text_box">
                 <h3 class="more_title">5.　一人でゆっくり。</h3>
                 <p class="more_text">
