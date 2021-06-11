@@ -197,9 +197,9 @@ header{
 
 .number h3 {
     position: absolute;
-    font-family: 'Odalisque', sans-serif;
+    font-family: 'Odalisque NF', sans-serif;                                          
     color: #172852;
-    font-size: 48px;
+    font-size: 50px;
     letter-spacing: 3px;
 }
 
