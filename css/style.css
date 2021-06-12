@@ -3,8 +3,15 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'Odalisque NF';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Odalisque NF'), url('https://fonts.cdnfonts.com/s/29279/OdalisqueNF.woff') format('woff');
+}
+
 body{
-    background-color: #f4f3f2;
+    background-color: #f2eeed;
 }
 
 .header_wrapper{
@@ -41,7 +48,7 @@ header{
 }
 
 .header_wrapper a:hover{
-    color: #ba7a4f;
+    color: #b76a4f;
 }
 
 .header_wrapper li a::after {
@@ -51,7 +58,7 @@ header{
     left: 3%;
     width: 90%;
     height: 2px;
-    background:#ba7a4f;
+    background:#b76a4f;
     transition: all .3s;
     transform: scale(0, 1);
     transform-origin: center top;
@@ -73,37 +80,37 @@ header{
 .first_view img {
     position: absolute;
     bottom: 4vh;
-    left: 14vw;
+    left: 10vw;
     width: 50px;
 }
 
 .site_title{
     position: absolute;
     bottom: 12.5vh;
-    left: 31vw;
+    left: 30vw;
     width: 500px;
-    height: 430px;
+    height: 500px;
     background-color: rgba(255, 255, 255, 0.55);
     text-align: center;
     font-family: '筑紫B丸ゴシック';
-    font-size: 75px;
+    font-size: 60px;
     color: #172852;
-    line-height: 120px;
-    padding-top: 75px;
+    line-height: 100px;
+    padding-top: 0px;
 }
 
 .fv_button{
     position: absolute;
     bottom: 12vh;
-    right: 12vw;
+    right: 9vw;
     width: 110px;
     display: block;
     background:#fff;
     color: #172852;
-    font-size: 30px;
+    font-size: 24px;
     font-family: '筑紫B丸ゴシック';
     text-decoration: none;
-    padding: 40px 30px;
+    padding: 40px 20px;
     border-radius: 100px;
     text-align: center;
     letter-spacing: 4px;
@@ -195,12 +202,11 @@ header{
     margin-top: 140px;
 }
 
-.number {
+.number{
     position: absolute;
-    font-family: 'Odalisque NF', sans-serif;                                          
-    color: #172852;
+    font-family: 'Odalisque NF', sans-serif;
     font-size: 60px;
-    letter-spacing: 3px;
+    color: #172852;
 }
 
 .step_container img{
@@ -246,12 +252,12 @@ header{
     width: 400px;
     display: block;
     background:#f4f3f2;
-    color: #ba7a4f;
+    color: #b76a4f;
     font-size: 24px;
     font-family: '筑紫B丸ゴシック';
     text-decoration: none;
     padding: 8px 20px;
-    border: 2px solid #ba7a4f;
+    border: 2px solid #b76a4f;
     border-radius: 50px;
     text-align: center;
     letter-spacing: 4px;
@@ -259,8 +265,8 @@ header{
 
 .recipe_list li:hover a{
     transition: .3s;
-    border: 2px solid #ba7a4f;
-    background: #ba7a4f;
+    border: 2px solid #b76a4f;
+    background: #b76a4f;
     color: #f4f3f2;
 }
 
@@ -298,7 +304,7 @@ header{
 
 .item_text p{
     font-family: '筑紫B丸ゴシック';
-    color: #ba7a4f;
+    color: #b76a4f;
     font-size: 24px;
 }
 
@@ -311,7 +317,7 @@ header{
 } 
 
 .border{
-    border-top: 3px solid #ba7a4f;
+    border-top: 3px solid #b76a4f;
     padding-top: 40px;
 }
 
@@ -341,7 +347,7 @@ header{
 
 .item_info h3 {
     font-family: '筑紫B丸ゴシック';
-    color: #ba7a4f;
+    color: #b76a4f;
     font-size: 22px;
     background-color: #f4f3f2;
     letter-spacing: 2px;
@@ -370,7 +376,7 @@ header{
     left: 0;
     overflow: hidden;
     white-space: nowrap;
-    color: #ba7a4f;
+    color: #b76a4f;
 }
 
 .star5_rating[data-rate="4"]:after{ width: 80%; }
@@ -493,8 +499,6 @@ header{
 .more_container:nth-child(even) {
     flex-direction: row-reverse;
 }
-
-
 
 .more_container:nth-child(even) .more_text {
     padding-right: 165px;
