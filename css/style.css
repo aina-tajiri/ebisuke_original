@@ -558,3 +558,53 @@ footer p{
     padding-top: 30px;
     letter-spacing: 3px;
 }
+
+/* レシピページ */
+
+section{
+    padding: 200px 9vw 0px 9vw;
+}
+
+.recipe_page img {
+    width: 600px;
+}
+
+.recipe_pdf{
+    font-family: '筑紫B丸ゴシック';
+	position: relative;
+	text-decoration: none;
+	display: inline-block;
+	background:#f4f3f2;
+	color:#b76a4f;
+    padding: 10px 100px 10px 50px;
+    border: 2px solid #b76a4f;
+	border-radius: 100px;
+    text-align: center;
+    outline: none;
+    letter-spacing: 3px;
+    font-size: 28px;
+    transition: ease .2s;
+}
+
+.recipe_pdf:hover{
+	background:#ddd;
+    color: #b76a4f;
+}
+
+.recipe_pdf::after{
+    content: '';
+	position: absolute;
+    top:42%;
+    right: 13px;
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid #b76a4f;
+    border-right: 2px solid #b76a4f;
+    transform: rotate(45deg);
+    margin-right: 30px;
+    transition: all .3s;
+}
+
+.recipe_pdf:hover::after{
+    right: 11px;
+}
