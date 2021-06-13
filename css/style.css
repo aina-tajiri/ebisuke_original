@@ -198,6 +198,7 @@ header{
     color: #172852;
     font-size: 20px;
     letter-spacing: 1px;
+    text-align: center
 }
 
 .step_container{
@@ -206,7 +207,7 @@ header{
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
-    margin-top: 140px;
+    margin-top: 110px;
 }
 
 .text_en p{
@@ -214,7 +215,7 @@ header{
     color: #172852;
     font-family: 'Avenir Next Regular';
     font-size: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 
 .number{
@@ -233,7 +234,7 @@ header{
     font-family: '筑紫B丸ゴシック';
     font-size: 18px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .even_box{
@@ -243,7 +244,7 @@ header{
 .section_text p {
     color: #172852;
     font-family: '筑紫B丸ゴシック';
-    padding: 60px 60px;
+    padding:45px 45px;
     text-align: center;
     margin-top: 40px;
     font-size: 21px;
