@@ -579,7 +579,7 @@ header{
 footer{
     height: 70px;
     background-color: rgba(186, 122, 79, 0.7);
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 footer p{
@@ -595,10 +595,7 @@ footer p{
 
 
 .page_box{
-    margin: 150px 4vw 50px 4vw;
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
+    margin: 140px 4vw 40px 4vw;
     background-color: #fff;
     padding: 110px;
     border-radius: 5px;
@@ -608,6 +605,17 @@ footer p{
     top: 110px;
     left: 120px;
     width: 510px;
+}
+
+.recipe_content_box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.resipe_content_box{display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
 }
 
 .recipe_pdf{
@@ -656,6 +664,7 @@ footer p{
 
 .material{
     width: 510px;
+
 }
 
 .material h1{
@@ -676,6 +685,7 @@ footer p{
     font-style: normal;
     font-size: 20px;
     margin-bottom: 15px;
+    line-height: 39px;
 }
 
 .material h2{
@@ -689,7 +699,7 @@ footer p{
 
 .border_page{
     background-color: #b76a4f;
-    margin-bottom: 28px;
+    margin-bottom: 35px;
     height: 2px;
 }
 
@@ -698,7 +708,7 @@ footer p{
     justify-content: space-between;
     width: 500px;
     text-align: right;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .name{
@@ -709,7 +719,7 @@ footer p{
     color: #172852;
     font-family: 'fot-tsukubrdgothic-std',sans-serif;
     font-size: 22px;
-    line-height: 70px;
+    line-height: 50px;
 }
 
 .explanation h2{
@@ -748,8 +758,13 @@ footer p{
     letter-spacing: 3px;
     font-size: 28px;
     transition: ease .2s;
-    margin: 190px auto 160px auto;
+    margin: 190px auto 70px auto;
     display: block;
     width: 430px;
     border-radius: 15px;
+}
+
+.page_top_recipe:hover{
+	background:#ddd;
+    color: #172852;
 }
