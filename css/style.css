@@ -25,6 +25,7 @@ header{
     overflow: hidden;
     background: rgba(255, 255, 255, 0.7);
     position: fixed;
+    top: 0px;
     width: 100%;
     height: 90px;
     z-index: 4;
@@ -33,7 +34,7 @@ header{
 .header_wrapper li{
     float: left;
     list-style-type: none;
-    font-family: 'Avenir Next Regular';
+    font-family: 'Avenir Next Regular' ,sans-serif;
     letter-spacing: 5px;
 }
 .header_wrapper li a{
@@ -74,25 +75,26 @@ header{
     background-image: url(/img/FV_pc.jpg);
     background-size: cover;
     height: 789px;
-
 }
 
 .first_view img {
     position: absolute;
     bottom: 4vh;
     left: 10vw;
-    width: 50px;
+    width: 48px;
 }
 
 .site_title{
     position: absolute;
     bottom: 12.5vh;
-    left: 30vw;
+    left: 30.5vw;
     width: 500px;
     height: 500px;
     background-color: rgba(255, 255, 255, 0.55);
     text-align: center;
-    font-family: '筑紫B丸ゴシック';
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 60px;
     color: #172852;
     line-height: 100px;
@@ -108,12 +110,13 @@ header{
     background:#fff;
     color: #172852;
     font-size: 24px;
-    font-family: '筑紫B丸ゴシック';
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-decoration: none;
-    padding: 40px 20px;
+    padding: 30px 20px 25px 20px;
     border-radius: 100px;
     text-align: center;
-    letter-spacing: 4px;
 }
 
 .fv_button:hover{
@@ -124,7 +127,7 @@ header{
 .second_section{
     position: relative;
     height: 590px;
-    margin-top: 150px;
+    margin-top: 160px;
     margin-bottom: 145px;
 }
 
@@ -138,7 +141,9 @@ header{
 
 .copy1 p {
     color: #172852;
-    font-family: '筑紫B丸ゴシック';
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 21px;
     letter-spacing: 8px;
     line-height: 50px;
@@ -162,7 +167,9 @@ header{
 
 .copy2{
     color: #172852;
-    font-family: '筑紫B丸ゴシック';
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 40px;
     letter-spacing: 10px;
     line-height: 80px;
@@ -183,21 +190,22 @@ header{
 .step_section, .more_section,.recipe_section{
     padding-top: 100px;
     margin-top: -100px;
-    margin-bottom: 140px;
+    margin-bottom: 160px;
 }
 
 .title{
-    font-family: 'Avenir Next Regular';
+    font-family: 'Avenir Next Regular' ,sans-serif;
     color: #172852;
     font-size: 60px;
     text-align: center;
 }
 
 .title_jp{
-    font-family: '筑紫B丸ゴシック';
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color: #172852;
     font-size: 20px;
-    letter-spacing: 1px;
     text-align: center
 }
 
@@ -207,15 +215,15 @@ header{
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
-    margin-top: 110px;
+    margin-top: 100px;
 }
 
 .text_en p{
     text-align: center;
     color: #172852;
-    font-family: 'Avenir Next Regular';
-    font-size: 25px;
-    padding-bottom: 20px;
+    font-family: 'Avenir Next Regular' ,sans-serif;
+    font-size: 22px;
+    padding-bottom: 17px;
 }
 
 .number{
@@ -231,10 +239,14 @@ header{
 
 .txbox p {
     color: #172852;
-    font-family: '筑紫B丸ゴシック';
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 18px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 15px;
+    line-height: 30px;
+    letter-spacing: 1px;
 }
 
 .even_box{
@@ -243,8 +255,10 @@ header{
 
 .section_text p {
     color: #172852;
-    font-family: '筑紫B丸ゴシック';
-    padding:45px 45px;
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding:40px 45px;
     text-align: center;
     margin-top: 40px;
     font-size: 21px;
@@ -267,23 +281,26 @@ header{
     height: 40px;
     width: 400px;
     display: block;
-    background:#f4f3f2;
+    background:rgb(242, 238, 237);
     color: #b76a4f;
     font-size: 24px;
-    font-family: '筑紫B丸ゴシック';
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-decoration: none;
     padding: 8px 20px;
     border: 2px solid #b76a4f;
     border-radius: 50px;
     text-align: center;
     letter-spacing: 4px;
+    line-height: 40px;
 }
 
 .recipe_list li:hover a{
     transition: .3s;
     border: 2px solid #b76a4f;
     background: #b76a4f;
-    color: #f4f3f2;
+    color: rgb(242, 238, 237);
 }
 
 .space{
@@ -305,41 +322,45 @@ header{
 }
 
 .item_text h3 {
-    font-family: '筑紫B丸ゴシック';
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-weight: 700;
+    font-style: normal;
     color: #172852;
     font-size: 21px;
 }
 
 .item_text h1{
-    font-family: '筑紫B丸ゴシック';
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-weight: 700;
+    font-style: normal;
     color: #172852;
     font-size: 35px;
-    margin: 20px 0px;
-    margin-bottom: 60px;
+    margin: 0px 0px 10px 0px;
 }
 
 .item_text p{
-    font-family: '筑紫B丸ゴシック';
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color: #b76a4f;
-    font-size: 24px;
+    font-size: 23px;
 }
 
 .item_text{
     height: 310px;
+    width: 500px;
 }
 
-.item_text h1, .item_text h3, .item_text p{
-    width: 500px;
-} 
-
 .border{
-    border-top: 3px solid #b76a4f;
-    padding-top: 40px;
+    background-color: #b76a4f;
+    margin-bottom: 30px;
+    width: 500px;
+    height: 3px;
 }
 
 .recipe_pic{
     width: 500px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .image_text_box{
@@ -362,10 +383,12 @@ header{
 }
 
 .item_info h3 {
-    font-family: '筑紫B丸ゴシック';
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color: #b76a4f;
     font-size: 22px;
-    background-color: #f4f3f2;
+    background-color: rgb(242, 238, 237);
     letter-spacing: 2px;
     margin: 20px 0px 0px 0px;
     padding-top: 20px;
@@ -402,13 +425,15 @@ header{
 .star5_rating[data-rate="1"]:after{ width: 20%; }
 
 .recipe_button{
-    font-family: '筑紫B丸ゴシック';
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-weight: 400;
+    font-style: normal;
 	position: relative;
 	text-decoration: none;
 	display: inline-block;
 	background:#fff;
 	color:#172852;
-    padding: 10px 100px 10px 50px;
+    padding: 3px 100px 3px 50px;
     border: 2px solid #172852;
 	border-radius: 100px;
     text-align: center;
@@ -416,7 +441,7 @@ header{
     letter-spacing: 3px;
     font-size: 28px;
     transition: ease .2s;
-    margin-top: 50px;
+    margin-top: 60px;
     margin-left: 55px;
     margin-right: 70px;
 }
@@ -465,7 +490,7 @@ header{
     padding-left: 20px;
     color: #172852;
     text-decoration: none;
-  }
+}
 
 .arrow::before {
     content: '';
@@ -483,7 +508,9 @@ header{
 
 .more_text{
     color: #172852;
-    font-family: '筑紫B丸ゴシック';
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 21px;
     letter-spacing: 2px;
     line-height: 40px;
@@ -491,7 +518,9 @@ header{
 }
 
 .more_title{
-    font-family: '筑紫B丸ゴシック';
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-weight: 700;
+    font-style: normal;
     color: #172852;
     font-size: 45px;
     text-align: center;
@@ -521,23 +550,25 @@ header{
 }
 
 .page_top{
-    font-family: '筑紫B丸ゴシック';
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-weight: 400;
+    font-style: normal;
 	position: relative;
 	text-decoration: none;
 	display: inline-block;
-	background:#f4f3f2;
+	background:rgb(242, 238, 237);
 	color:#172852;
-    padding: 20px 0px;
-    border: 4px solid #172852;
+    padding: 15px 0px;
+    border: 3px solid #172852;
     text-align: center;
     outline: none;
     letter-spacing: 3px;
     font-size: 28px;
     transition: ease .2s;
-    margin: 190px auto 180px auto;
+    margin: 190px auto 160px auto;
     display: block;
     width: 430px;
-    border-radius: 18px;
+    border-radius: 15px;
 }
 
 .page_top:hover{
@@ -548,35 +579,47 @@ header{
 footer{
     height: 70px;
     background-color: rgba(186, 122, 79, 0.7);
+    margin-top: 70px;
 }
 
 footer p{
     text-align: center;
     font-family: 'Avenir Next Ultra light';
     font-size: 12px;
-    color: #f4f3f2;
+    color: rgb(242, 238, 237);
     padding-top: 30px;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
 }
 
 /* レシピページ */
 
-section{
-    padding: 200px 9vw 0px 9vw;
+
+.page_box{
+    margin: 150px 4vw 50px 4vw;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    background-color: #fff;
+    padding: 110px;
+    border-radius: 5px;
 }
 
-.recipe_page img {
-    width: 600px;
+.img_material img{
+    top: 110px;
+    left: 120px;
+    width: 510px;
 }
 
 .recipe_pdf{
-    font-family: '筑紫B丸ゴシック';
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-weight: 400;
+    font-style: normal;
 	position: relative;
 	text-decoration: none;
-	display: inline-block;
-	background:#f4f3f2;
+	display: block;
+	background:#fff;
 	color:#b76a4f;
-    padding: 10px 100px 10px 50px;
+    padding: 3px 70px 3px 30px;
     border: 2px solid #b76a4f;
 	border-radius: 100px;
     text-align: center;
@@ -584,10 +627,12 @@ section{
     letter-spacing: 3px;
     font-size: 28px;
     transition: ease .2s;
+    margin: 80px 18px 80px 18px;
+    width: 356px;
 }
 
 .recipe_pdf:hover{
-	background:#ddd;
+	background:rgb(242, 238, 237);
     color: #b76a4f;
 }
 
@@ -607,4 +652,104 @@ section{
 
 .recipe_pdf:hover::after{
     right: 11px;
+}
+
+.material{
+    width: 510px;
+}
+
+.material h1{
+    color: #172852;
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 31px;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+}
+
+.material p{
+    color: #172852;
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.material h2{
+    color: #172852;
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.border_page{
+    background-color: #b76a4f;
+    margin-bottom: 28px;
+    height: 2px;
+}
+
+.amount_material{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.name{
+    text-align: left;
+}
+
+.explanation p{
+    color: #172852;
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-size: 22px;
+    line-height: 70px;
+}
+
+.explanation h2{
+    color: #172852;
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.dot{
+    border-top: 2px dotted #b76a4f;
+    margin: 20px 0;
+}
+
+.point{
+    background-color: rgba(186, 122, 79, 0.6);
+    border-radius: 3px;
+    padding: 5px 5px 5px 7px;
+}
+
+.page_top_recipe{
+    font-family: 'fot-tsukubrdgothic-std',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	position: relative;
+	text-decoration: none;
+	display: inline-block;
+	background:#fff;
+	color:#172852;
+    padding: 15px 0px;
+    border: 3px solid #172852;
+    text-align: center;
+    outline: none;
+    letter-spacing: 3px;
+    font-size: 28px;
+    transition: ease .2s;
+    margin: 190px auto 160px auto;
+    display: block;
+    width: 430px;
+    border-radius: 15px;
 }
