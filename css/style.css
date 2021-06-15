@@ -10,15 +10,30 @@
     src: local('Odalisque NF'), url('https://fonts.cdnfonts.com/s/29279/OdalisqueNF.woff') format('woff');
 }
 
+@font-face {
+    font-family: 'Avenir Next';
+    src: url(/Avenir_Next.ttc);
+}
+
+/* PC版 */
+
+@media screen and (min-width:480px){
+
+
 body{
     background-color: #f2eeed;
+    width: 100vw;
+}
+
+.wrap{
+    overflow: hidden;
 }
 
 .header_wrapper{
     width: 600px;
     margin: 0 0 0 auto;
     display: flex;
-    padding-right: 30px;
+    margin-right: 20px;
 }
 
 header{
@@ -29,12 +44,20 @@ header{
     width: 100%;
     height: 90px;
     z-index: 4;
+
+    display: flex;
+}
+
+.title_logo{
+    padding: 19px 60px 18px 40px;
+    width: 80px;
 }
 
 .header_wrapper li{
     float: left;
     list-style-type: none;
-    font-family: 'Avenir Next Regular' ,sans-serif;
+    font-family: 'Avenir',sans-serif;
+    font-weight: 400;
     letter-spacing: 5px;
 }
 .header_wrapper li a{
@@ -42,10 +65,10 @@ header{
     color: #172852;
     display: block;
     transition: 0.3s;
-    font-size: 24px;
+    font-size: 25px;
     position: relative;
     padding-top: 30px;
-    margin-right: 60px;
+    margin-left: 60px;
 }
 
 .header_wrapper a:hover{
@@ -71,72 +94,41 @@ header{
 
 .first_view{
     position: relative;
-    overflow: hidden;
     background-image: url(/img/FV_pc.jpg);
     background-size: cover;
+    background-position: center;
     height: 789px;
 }
 
-.first_view img {
+.site_title img{
+    width: 480px;
     position: absolute;
-    bottom: 4vh;
-    left: 10vw;
-    width: 48px;
-}
-
-.site_title{
-    position: absolute;
-    bottom: 12.5vh;
-    left: 30.5vw;
-    width: 500px;
-    height: 500px;
-    background-color: rgba(255, 255, 255, 0.55);
-    text-align: center;
-    font-family: 'fot-tsukubrdgothic-std',sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 60px;
-    color: #172852;
-    line-height: 100px;
-    padding-top: 0px;
-}
-
-.fv_button{
-    position: absolute;
-    bottom: 12vh;
-    right: 9vw;
-    width: 110px;
-    display: block;
-    background:#fff;
-    color: #172852;
-    font-size: 24px;
-    font-family: 'fot-tsukubrdgothic-std',sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-decoration: none;
-    padding: 30px 20px 25px 20px;
-    border-radius: 100px;
-    text-align: center;
-}
-
-.fv_button:hover{
-    transition: .3s;
-    background: #ddd;
+    top: 55%;
+    left: 50%;
+    transform:translate(-50%, -50%);
 }
 
 .second_section{
     position: relative;
-    height: 590px;
+    height: 570px;
     margin-top: 160px;
     margin-bottom: 145px;
+    margin: 155px 0 145px 0;
+    width: 100%;
 }
 
-.relative{
+.hako{
+    position: relative;
+}
+
+.copy1_woman{
     display: flex;
     z-index: 2;
     position: absolute;
-    top: 0px;
-    left: 280px;
+    
+    top: 250px;
+    left: 52%;
+    transform:translate(-50%, -50%);
 }
 
 .copy1 p {
@@ -147,22 +139,22 @@ header{
     font-size: 21px;
     letter-spacing: 8px;
     line-height: 50px;
-    margin-top: 20px;
-    margin-right: 65px;
-    width: 319px;
+    margin-right: 70px;
+    width: 320px;
 }
 
 .pic{
-    width: 530px;
-    height: 530px;
+    width: 480px;
 }
 
 .image{
-    width: 680px;
+    width: 660px;
     z-index: 1;
     position: absolute;
-    top: 250px;
-    left: 210px;
+
+    top: 390px;
+    left: 39%;
+    transform:translate(-50%, -50%);
 }
 
 .copy2{
@@ -170,14 +162,16 @@ header{
     font-family: 'fot-tsukubrdgothic-std',sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
-    letter-spacing: 10px;
+    font-size: 42px;
+    letter-spacing: 7px;
     line-height: 80px;
     z-index: 3;
     position: absolute;
-    top: 335px;
-    left: 270px;
     width: 610px;
+
+    top: 385px;
+    left: 41%;
+    transform:translate(-50%, -50%);
 }
 
 .line{
@@ -194,7 +188,7 @@ header{
 }
 
 .title{
-    font-family: 'Avenir Next Regular' ,sans-serif;
+    font-family: 'Avenir',sans-serif;
     color: #172852;
     font-size: 60px;
     text-align: center;
@@ -221,9 +215,10 @@ header{
 .text_en p{
     text-align: center;
     color: #172852;
-    font-family: 'Avenir Next Regular' ,sans-serif;
+    font-family: 'Avenir',sans-serif;
     font-size: 22px;
     padding-bottom: 17px;
+    letter-spacing: 3px;
 }
 
 .number{
@@ -767,4 +762,756 @@ footer p{
 .page_top_recipe:hover{
 	background:#ddd;
     color: #172852;
+}
+
+
+}
+
+
+/* SP版 */
+
+@media screen and (max-width:480px){
+    body{
+        background-color: #f2eeed;
+        width: 100vw;
+    }
+    
+    .wrap{
+        overflow: hidden;
+    }
+    
+    .header_wrapper{
+        width: 600px;
+        margin: 0 0 0 auto;
+        display: flex;
+        margin-right: 20px;
+    }
+    
+    header{
+        overflow: hidden;
+        background: rgba(255, 255, 255, 0.7);
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        height: 90px;
+        z-index: 4;
+    
+        display: flex;
+    }
+    
+    .title_logo{
+        padding: 19px 60px 18px 40px;
+        width: 80px;
+    }
+    
+    .header_wrapper li{
+        float: left;
+        list-style-type: none;
+        font-family: 'Avenir',sans-serif;
+        font-weight: 400;
+        letter-spacing: 5px;
+    }
+    .header_wrapper li a{
+        text-decoration: none;
+        color: #172852;
+        display: block;
+        transition: 0.3s;
+        font-size: 25px;
+        position: relative;
+        padding-top: 30px;
+        margin-left: 60px;
+    }
+    
+    .header_wrapper a:hover{
+        color: #b76a4f;
+    }
+    
+    .header_wrapper li a::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 3%;
+        width: 90%;
+        height: 2px;
+        background:#b76a4f;
+        transition: all .3s;
+        transform: scale(0, 1);
+        transform-origin: center top;
+    }
+    
+    .header_wrapper li a:hover::after {
+        transform: scale(1, 1);
+    }
+    
+    .first_view{
+        position: relative;
+        background-image: url(/img/FV_pc.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 789px;
+    }
+    
+    .site_title img{
+        width: 480px;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform:translate(-50%, -50%);
+    }
+    
+    .second_section{
+        position: relative;
+        height: 570px;
+        margin-top: 160px;
+        margin-bottom: 145px;
+        margin: 155px 0 145px 0;
+        width: 100%;
+    }
+    
+    .hako{
+        position: relative;
+    }
+    
+    .copy1_woman{
+        display: flex;
+        z-index: 2;
+        position: absolute;
+        
+        top: 250px;
+        left: 52%;
+        transform:translate(-50%, -50%);
+    }
+    
+    .copy1 p {
+        color: #172852;
+        font-family: 'fot-tsukubrdgothic-std',sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 21px;
+        letter-spacing: 8px;
+        line-height: 50px;
+        margin-right: 70px;
+        width: 320px;
+    }
+    
+    .pic{
+        width: 480px;
+    }
+    
+    .image{
+        width: 660px;
+        z-index: 1;
+        position: absolute;
+    
+        top: 390px;
+        left: 39%;
+        transform:translate(-50%, -50%);
+    }
+    
+    .copy2{
+        color: #172852;
+        font-family: 'fot-tsukubrdgothic-std',sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 42px;
+        letter-spacing: 7px;
+        line-height: 80px;
+        z-index: 3;
+        position: absolute;
+        width: 610px;
+    
+        top: 385px;
+        left: 41%;
+        transform:translate(-50%, -50%);
+    }
+    
+    .line{
+        background-color: #fff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 8px;
+    }
+    
+    .step_section, .more_section,.recipe_section{
+        padding-top: 100px;
+        margin-top: -100px;
+        margin-bottom: 160px;
+    }
+    
+    .title{
+        font-family: 'Avenir',sans-serif;
+        color: #172852;
+        font-size: 60px;
+        text-align: center;
+    }
+    
+    .title_jp{
+        font-family: 'fot-tsukubrdgothic-std',sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #172852;
+        font-size: 20px;
+        text-align: center
+    }
+    
+    .step_container{
+        position: relative;
+        padding: 0 11vw;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+        margin-top: 100px;
+    }
+    
+    .text_en p{
+        text-align: center;
+        color: #172852;
+        font-family: 'Avenir',sans-serif;
+        font-size: 22px;
+        padding-bottom: 17px;
+        letter-spacing: 3px;
+    }
+    
+    .number{
+        position: absolute;
+        font-family: 'Odalisque NF', sans-serif;
+        font-size: 60px;
+        color: #172852;
+    }
+    
+    .step_container img{
+        width: 200px;
+    }
+    
+    .txbox p {
+        color: #172852;
+        font-family: 'fot-tsukubrdgothic-std',sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        text-align: center;
+        padding-top: 15px;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+    
+    .even_box{
+        margin-top: 90px;
+    }
+    
+    .section_text p {
+        color: #172852;
+        font-family: 'fot-tsukubrdgothic-std',sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding:40px 45px;
+        text-align: center;
+        margin-top: 40px;
+        font-size: 21px;
+        letter-spacing: 5px;
+        line-height: 40px;
+    }
+    
+    .button{
+        text-align: center;
+        margin: 40px 0px;
+    }
+    
+    .recipe_list li{
+        padding: 20px 40px;
+        list-style-type: none;
+        display: inline-block;
+    }
+    
+    .recipe_list li a{
+        height: 40px;
+        width: 400px;
+        display: block;
+        background:rgb(242, 238, 237);
+        color: #b76a4f;
+        font-size: 24px;
+        font-family: 'fot-tsukubrdgothic-std',sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        padding: 8px 20px;
+        border: 2px solid #b76a4f;
+        border-radius: 50px;
+        text-align: center;
+        letter-spacing: 4px;
+        line-height: 40px;
+    }
+    
+    .recipe_list li:hover a{
+        transition: .3s;
+        border: 2px solid #b76a4f;
+        background: #b76a4f;
+        color: rgb(242, 238, 237);
+    }
+    
+    .space{
+        display: block;
+        padding-top: 95px;
+        margin-top: -95px;
+    }
+    
+    .recipe_content{
+        margin-top: 90px;
+    }
+    
+    .recipe_box{
+        width: 75vw;
+        margin: 40px auto;
+        background: #fff;
+        border-radius: 40px;
+        padding: 60px;
+    }
+    
+    .item_text h3 {
+        font-family: 'fot-tsukubrdgothic-std',sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #172852;
+        font-size: 21px;
+    }
+    
+    .item_text h1{
+        font-family: 'fot-tsukubrdgothic-std',sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #172852;
+        font-size: 35px;
+        margin: 0px 0px 10px 0px;
+    }
+    
+    .item_text p{
+        font-family: 'fot-tsukubrdgothic-std',sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #b76a4f;
+        font-size: 23px;
+    }
+    
+    .item_text{
+        height: 310px;
+        width: 500px;
+    }
+    
+    .border{
+        background-color: #b76a4f;
+        margin-bottom: 30px;
+        width: 500px;
+        height: 3px;
+    }
+    
+    .recipe_pic{
+        width: 500px;
+        margin-bottom: 20px;
+    }
+    
+    .image_text_box{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    
+    .info_button_box{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    
+    .item_info{
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        margin-top: 30px;
+    }
+    
+    .item_info h3 {
+        font-family: 'fot-tsukubrdgothic-std',sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #b76a4f;
+        font-size: 22px;
+        background-color: rgb(242, 238, 237);
+        letter-spacing: 2px;
+        margin: 20px 0px 0px 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        width: 230px;
+    }
+    
+    .star5_rating{
+        position: relative;
+        z-index: 0;
+        display: inline-block;
+        white-space: nowrap;
+        color: #ccc;
+    }
+    
+    .star5_rating:before, .star5_rating:after{
+        content: '★★★★★';
+    }
+    
+    .star5_rating:after{
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        white-space: nowrap;
+        color: #b76a4f;
+    }
+    
+    .star5_rating[data-rate="4"]:after{ width: 80%; }
+    .star5_rating[data-rate="2.5"]:after{ width: 50%; }
+    .star5_rating[data-rate="2"]:after{ width: 40%; }
+    .star5_rating[data-rate="1.5"]:after{ width: 30%; }
+    .star5_rating[data-rate="1"]:after{ width: 20%; }
+    
+    .recipe_button{
+        font-family: 'fot-tsukubrdgothic-std',sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: relative;
+        text-decoration: none;
+        display: inline-block;
+        background:#fff;
+        color:#172852;
+        padding: 3px 100px 3px 50px;
+        border: 2px solid #172852;
+        border-radius: 100px;
+        text-align: center;
+        outline: none;
+        letter-spacing: 3px;
+        font-size: 28px;
+        transition: ease .2s;
+        margin-top: 60px;
+        margin-left: 55px;
+        margin-right: 70px;
+    }
+    
+    .recipe_button:hover{
+        background:#ddd;
+        color: #172852;
+    }
+    
+    .recipe_button::after{
+        content: '';
+        position: absolute;
+        top:42%;
+        right: 13px;
+        width: 8px;
+        height: 8px;
+        border-top: 2px solid #172852;
+        border-right: 2px solid #172852;
+        transform: rotate(45deg);
+        margin-right: 30px;
+        transition: all .3s;
+    }
+    
+    .recipe_button:hover::after{
+        right: 11px;
+    }
+    
+    .jump_box{
+        display: block;
+        margin: 0 auto;
+        width: 70px;
+        height: 70px;
+        border:2px solid #172852;
+        border-radius: 100px;
+        margin-top: 60px;
+        transition: 0.3s;
+    }
+    
+    .jump_box:hover{
+        background-color: #ddd;
+    }
+    
+    .arrow {
+        position: relative;
+        display: inline-block;
+        padding-left: 20px;
+        color: #172852;
+        text-decoration: none;
+    }
+    
+    .arrow::before {
+        content: '';
+        width: 25px;
+        height: 25px;
+        border: 0;
+        border-top: solid 2px #172852;
+        border-right: solid 2px #172852;
+        position: absolute;
+        top: 50%;
+        left: 21px;
+        margin: 12px  0px;
+        transform: rotate(-45deg);
+      }
+    
+    .more_text{
+        color: #172852;
+        font-family: 'fot-tsukubrdgothic-std',sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 21px;
+        letter-spacing: 2px;
+        line-height: 40px;
+        width: 480px;
+    }
+    
+    .more_title{
+        font-family: 'fot-tsukubrdgothic-std',sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #172852;
+        font-size: 45px;
+        text-align: center;
+        margin: 70px 0px 50px 0px;
+        letter-spacing: 3px;
+    }
+    
+    .more_container{
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+        margin: 70px 11vw 140px 11vw;
+    }
+    
+    .more_container img {
+        width: 380px;
+        height: 380px;
+    }
+    
+    .more_container:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    
+    .more_container img{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .page_top{
+        font-family: 'fot-tsukubrdgothic-std',sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: relative;
+        text-decoration: none;
+        display: inline-block;
+        background:rgb(242, 238, 237);
+        color:#172852;
+        padding: 15px 0px;
+        border: 3px solid #172852;
+        text-align: center;
+        outline: none;
+        letter-spacing: 3px;
+        font-size: 28px;
+        transition: ease .2s;
+        margin: 190px auto 160px auto;
+        display: block;
+        width: 430px;
+        border-radius: 15px;
+    }
+    
+    .page_top:hover{
+        background:#ddd;
+        color: #172852;
+    }
+    
+    footer{
+        height: 70px;
+        background-color: rgba(186, 122, 79, 0.7);
+        margin-top: 60px;
+    }
+    
+    footer p{
+        text-align: center;
+        font-family: 'Avenir Next Ultra light';
+        font-size: 12px;
+        color: rgb(242, 238, 237);
+        padding-top: 30px;
+        letter-spacing: 5px;
+    }
+    
+    /* レシピページ */
+    
+    
+    .page_box{
+        margin: 140px 4vw 40px 4vw;
+        background-color: #fff;
+        padding: 110px;
+        border-radius: 5px;
+    }
+    
+    .img_material img{
+        top: 110px;
+        left: 120px;
+        width: 510px;
+    }
+    
+    .recipe_content_box{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    
+    .resipe_content_box{display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+    }
+    
+    .recipe_pdf{
+        font-family: 'fot-tsukubrdgothic-std',sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: relative;
+        text-decoration: none;
+        display: block;
+        background:#fff;
+        color:#b76a4f;
+        padding: 3px 70px 3px 30px;
+        border: 2px solid #b76a4f;
+        border-radius: 100px;
+        text-align: center;
+        outline: none;
+        letter-spacing: 3px;
+        font-size: 28px;
+        transition: ease .2s;
+        margin: 80px 18px 80px 18px;
+        width: 356px;
+    }
+    
+    .recipe_pdf:hover{
+        background:rgb(242, 238, 237);
+        color: #b76a4f;
+    }
+    
+    .recipe_pdf::after{
+        content: '';
+        position: absolute;
+        top:42%;
+        right: 13px;
+        width: 8px;
+        height: 8px;
+        border-top: 2px solid #b76a4f;
+        border-right: 2px solid #b76a4f;
+        transform: rotate(45deg);
+        margin-right: 30px;
+        transition: all .3s;
+    }
+    
+    .recipe_pdf:hover::after{
+        right: 11px;
+    }
+    
+    .material{
+        width: 510px;
+    
+    }
+    
+    .material h1{
+        color: #172852;
+        font-family: 'fot-tsukubrdgothic-std',sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 35px;
+        line-height: 31px;
+        letter-spacing: 5px;
+        margin-bottom: 40px;
+    }
+    
+    .material p{
+        color: #172852;
+        font-family: 'fot-tsukubrdgothic-std',sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        margin-bottom: 15px;
+        line-height: 39px;
+    }
+    
+    .material h2{
+        color: #172852;
+        font-family: 'fot-tsukubrdgothic-std',sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    
+    .border_page{
+        background-color: #b76a4f;
+        margin-bottom: 35px;
+        height: 2px;
+    }
+    
+    .amount_material{
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        text-align: right;
+        margin-bottom: 50px;
+    }
+    
+    .name{
+        text-align: left;
+    }
+    
+    .explanation p{
+        color: #172852;
+        font-family: 'fot-tsukubrdgothic-std',sans-serif;
+        font-size: 22px;
+        line-height: 50px;
+    }
+    
+    .explanation h2{
+        color: #172852;
+        font-family: 'fot-tsukubrdgothic-std',sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    
+    .dot{
+        border-top: 2px dotted #b76a4f;
+        margin: 20px 0;
+    }
+    
+    .point{
+        background-color: rgba(186, 122, 79, 0.6);
+        border-radius: 3px;
+        padding: 5px 5px 5px 7px;
+    }
+    
+    .page_top_recipe{
+        font-family: 'fot-tsukubrdgothic-std',sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: relative;
+        text-decoration: none;
+        display: inline-block;
+        background:#fff;
+        color:#172852;
+        padding: 15px 0px;
+        border: 3px solid #172852;
+        text-align: center;
+        outline: none;
+        letter-spacing: 3px;
+        font-size: 28px;
+        transition: ease .2s;
+        margin: 190px auto 70px auto;
+        display: block;
+        width: 430px;
+        border-radius: 15px;
+    }
+    
+    .page_top_recipe:hover{
+        background:#ddd;
+        color: #172852;
+    }
 }
