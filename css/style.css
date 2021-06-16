@@ -214,9 +214,9 @@ header{
     text-align: center;
     color: #172852;
     font-family: 'Avenir',sans-serif;
-    font-size: 22px;
+    font-size: 23px;
     padding-bottom: 17px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .number{
@@ -319,7 +319,7 @@ header{
     font-weight: 700;
     font-style: normal;
     color: #172852;
-    font-size: 21px;
+    font-size: 23px;
 }
 
 .item_text h1{
@@ -337,6 +337,7 @@ header{
     font-style: normal;
     color: #b76a4f;
     font-size: 23px;
+    letter-spacing: 2px;
 }
 
 .item_text{
@@ -431,7 +432,7 @@ header{
 	border-radius: 100px;
     text-align: center;
     outline: none;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-size: 28px;
     transition: ease .2s;
     margin-top: 60px;
@@ -504,10 +505,10 @@ header{
     font-family: 'fot-tsukubrdgothic-std',sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 21px;
+    font-size: 23px;
     letter-spacing: 2px;
-    line-height: 40px;
-    width: 480px;
+    line-height: 45px;
+    width: 475px;
 }
 
 .more_title{
@@ -518,7 +519,8 @@ header{
     font-size: 45px;
     text-align: center;
     margin: 70px 0px 50px 0px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
 }
 
 .more_container{
@@ -555,7 +557,7 @@ header{
     border: 3px solid #172852;
     text-align: center;
     outline: none;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-size: 28px;
     transition: ease .2s;
     margin: 190px auto 160px auto;
@@ -591,12 +593,9 @@ footer p{
     margin: 140px 4vw 40px 4vw;
     background-color: #fff;
     padding: 110px;
-    border-radius: 5px;
 }
 
 .img_material img{
-    top: 110px;
-    left: 120px;
     width: 510px;
 }
 
@@ -625,7 +624,7 @@ footer p{
 	border-radius: 100px;
     text-align: center;
     outline: none;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-size: 28px;
     transition: ease .2s;
     margin: 80px 18px 80px 18px;
@@ -676,7 +675,7 @@ footer p{
     font-family: 'fot-tsukubrdgothic-std',sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 23px;
     margin-bottom: 15px;
     line-height: 39px;
 }
@@ -711,7 +710,7 @@ footer p{
 .explanation p{
     color: #172852;
     font-family: 'fot-tsukubrdgothic-std',sans-serif;
-    font-size: 22px;
+    font-size: 23px;
     line-height: 50px;
 }
 
@@ -748,7 +747,7 @@ footer p{
     border: 3px solid #172852;
     text-align: center;
     outline: none;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-size: 28px;
     transition: ease .2s;
     margin: 190px auto 70px auto;
@@ -777,6 +776,10 @@ footer p{
     
     .wrap{
         overflow: hidden;
+    }
+
+    .br_pc{
+        display: none;
     }
     
     .header_wrapper{
@@ -934,7 +937,7 @@ footer p{
     .step_section, .more_section,.recipe_section{
         padding-top: 60px;
         margin-top: -60px;
-        margin-bottom: 100px;
+        margin-bottom: 90px;
     }
     
     .title{
@@ -966,7 +969,7 @@ footer p{
         text-align: center;
         color: #172852;
         font-family: 'Avenir',sans-serif;
-        font-size: 13px;
+        font-size: 12px;
         padding-bottom: 17px;
         letter-spacing: 3px;
         margin-top: 40px;
@@ -1008,9 +1011,9 @@ footer p{
         padding: 40px 45px;
         text-align: center;
         margin-top: 40px;
-        font-size: 16px;
-        letter-spacing: 5px;
-        line-height: 40px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        line-height: 30px;
     }
     
     .recipe_list{
@@ -1090,7 +1093,7 @@ footer p{
         font-weight: 400;
         font-style: normal;
         color: #b76a4f;
-        font-size: 14.5px;
+        font-size: 12px;
     }
     
     .item_text{
@@ -1258,9 +1261,9 @@ footer p{
         font-family: 'fot-tsukubrdgothic-std',sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 1px;
+        font-size: 12px;
         letter-spacing: 2px;
-        line-height: 40px;
+        line-height: 25px;
         width: 270px;
     }
     
@@ -1271,15 +1274,16 @@ footer p{
         color: #172852;
         font-size: 22px;
         text-align: center;
-        margin: 70px 0px 50px 0px;
+        margin: 40px 0px 20px 0px;
         letter-spacing: 3px;
+        text-align: center;
     }
     
     .more_container{
         display: flex;
         justify-content: center;
         flex-flow: row wrap;
-        margin: 70px 11vw 140px 11vw;
+        margin: 40px 11vw 80px 11vw;
     }
     
     .more_container img {
@@ -1307,11 +1311,11 @@ footer p{
         text-align: center;
         outline: none;
         letter-spacing: 3px;
-        font-size: 16px;
+        font-size: 15px;
         transition: ease .2s;
         margin: 190px auto 160px auto;
         display: block;
-        width: 270px;
+        width: 260px;
         border-radius: 10px;
     }
     
@@ -1323,7 +1327,7 @@ footer p{
     footer{
         height: 70px;
         background-color: rgba(186, 122, 79, 0.7);
-        margin-top: 60px;
+        margin-top: 30px;
     }
     
     footer p{
@@ -1339,22 +1343,20 @@ footer p{
     
     
     .page_box{
-        margin: 140px 4vw 40px 4vw;
+        margin: 80px 4vw 0px 4vw;
         background-color: #fff;
-        padding: 110px;
-        border-radius: 5px;
+        padding: 30px;
+        overflow: hidden;
     }
     
     .img_material img{
-        top: 110px;
-        left: 120px;
-        width: 510px;
+        width: 76vw;
+        display: flex;
+        justify-content: center;
     }
     
     .recipe_content_box{
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
+        justify-content: center;
     }
     
     .resipe_content_box{display: flex;
@@ -1371,16 +1373,16 @@ footer p{
         display: block;
         background:#fff;
         color:#b76a4f;
-        padding: 3px 70px 3px 30px;
-        border: 2px solid #b76a4f;
+        padding: 2px 40px 2px 20px;
+        border: 1.5px solid #b76a4f;
         border-radius: 100px;
         text-align: center;
         outline: none;
         letter-spacing: 3px;
-        font-size: 28px;
+        font-size: 16px;
         transition: ease .2s;
-        margin: 80px 18px 80px 18px;
-        width: 356px;
+        margin: 50px auto;
+        width: 180px;
     }
     
     .recipe_pdf:hover{
@@ -1391,14 +1393,14 @@ footer p{
     .recipe_pdf::after{
         content: '';
         position: absolute;
-        top:42%;
-        right: 13px;
-        width: 8px;
-        height: 8px;
-        border-top: 2px solid #b76a4f;
-        border-right: 2px solid #b76a4f;
+        top:40%;
+        right: 6px;
+        width: 5px;
+        height: 5px;
+        border-top: 1.5px solid #b76a4f;
+        border-right: 1.5px solid #b76a4f;
         transform: rotate(45deg);
-        margin-right: 30px;
+        margin-right: 20px;
         transition: all .3s;
     }
     
@@ -1406,20 +1408,17 @@ footer p{
         right: 11px;
     }
     
-    .material{
-        width: 510px;
-    
-    }
-    
     .material h1{
         color: #172852;
         font-family: 'fot-tsukubrdgothic-std',sans-serif;
         font-weight: 700;
         font-style: normal;
-        font-size: 35px;
+        font-size: 18px;
         line-height: 31px;
         letter-spacing: 5px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
+
+        width: 76vw;
     }
     
     .material p{
@@ -1427,43 +1426,50 @@ footer p{
         font-family: 'fot-tsukubrdgothic-std',sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 20px;
-        margin-bottom: 15px;
-        line-height: 39px;
+        font-size: 12px;
+        /* margin-bottom: 15px; */
+        line-height: 25px;
     }
-    
+
     .material h2{
         color: #172852;
         font-family: 'fot-tsukubrdgothic-std',sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 26px;
-        margin-bottom: 15px;
+        font-size: 14px;
+        margin-bottom: 5px;
+
+        width: 76vw;
     }
     
     .border_page{
         background-color: #b76a4f;
-        margin-bottom: 35px;
+        margin-bottom: 20px;
         height: 2px;
+        width: 76vw;
     }
     
     .amount_material{
         display: flex;
         justify-content: space-between;
-        width: 500px;
+        width: 76vw;
         text-align: right;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
     
     .name{
         text-align: left;
     }
+
+    .explanation{
+        width: 76vw;
+    }
     
     .explanation p{
         color: #172852;
         font-family: 'fot-tsukubrdgothic-std',sans-serif;
-        font-size: 22px;
-        line-height: 50px;
+        font-size:12px;
+        line-height: 30px;
     }
     
     .explanation h2{
@@ -1471,13 +1477,13 @@ footer p{
         font-family: 'fot-tsukubrdgothic-std',sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 28px;
+        font-size: 14px;
         margin-bottom: 15px;
     }
     
     .dot{
         border-top: 2px dotted #b76a4f;
-        margin: 20px 0;
+        margin: 10px 0;
     }
     
     .point{
@@ -1495,17 +1501,17 @@ footer p{
         display: inline-block;
         background:#fff;
         color:#172852;
-        padding: 15px 0px;
-        border: 3px solid #172852;
+        padding: 10px 0px;
+        border: 2px solid #172852;
         text-align: center;
         outline: none;
         letter-spacing: 3px;
-        font-size: 28px;
+        font-size: 15px;
         transition: ease .2s;
-        margin: 190px auto 70px auto;
+        margin: 90px auto 60px auto;
         display: block;
-        width: 430px;
-        border-radius: 15px;
+        width: 260px;
+        border-radius: 10px;
     }
     
     .page_top_recipe:hover{
