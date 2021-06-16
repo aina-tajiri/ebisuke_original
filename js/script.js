@@ -3,5 +3,5 @@ $(window).on('load',function(){
       $('.load').fadeOut('fast');
       $('.wrap').fadeIn('slow');
     };
-    setTimeout(loading,3000); // setTimeoutを使って表示時間を設定する
+    setTimeout(loading,4000); // setTimeoutを使って表示時間を設定する
   });
