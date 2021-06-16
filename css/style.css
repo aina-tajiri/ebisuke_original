@@ -942,6 +942,7 @@ footer p{
     
     .title{
         font-family: 'Avenir',sans-serif;
+        font-weight: 400;
         color: #172852;
         font-size: 30px;
         text-align: center;
