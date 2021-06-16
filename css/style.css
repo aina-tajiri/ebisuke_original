@@ -819,7 +819,7 @@ footer p{
         color: #172852;
         display: block;
         transition: 0.3s;
-        font-size: 12px;
+        font-size: 13px;
         position: relative;
         padding-top: 18px;
         margin-left: 20px;
@@ -973,7 +973,7 @@ footer p{
         text-align: center;
         color: #172852;
         font-family: 'Avenir',sans-serif;
-        font-size: 12px;
+        font-size: 13px;
         padding-bottom: 17px;
         letter-spacing: 3px;
         margin-top: 40px;
@@ -1015,7 +1015,7 @@ footer p{
         padding: 40px 45px;
         text-align: center;
         margin-top: 40px;
-        font-size: 12px;
+        font-size: 13px;
         letter-spacing: 2px;
         line-height: 30px;
     }
@@ -1097,7 +1097,7 @@ footer p{
         font-weight: 400;
         font-style: normal;
         color: #b76a4f;
-        font-size: 12px;
+        font-size: 13px;
     }
     
     .item_text{
@@ -1106,7 +1106,7 @@ footer p{
     
     .border{
         background-color: #b76a4f;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         width: 75vw;
         height: 3px;
     }
@@ -1139,7 +1139,7 @@ footer p{
         font-weight: 400;
         font-style: normal;
         color: #b76a4f;
-        font-size: 12px;
+        font-size: 14px;
         background-color: rgb(242, 238, 237);
         letter-spacing: 1px;
         margin: 20px 0px 0px 0px;
@@ -1265,7 +1265,7 @@ footer p{
         font-family: 'fot-tsukubrdgothic-std',sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 12px;
+        font-size: 13px;
         letter-spacing: 2px;
         line-height: 25px;
         width: 270px;
@@ -1337,7 +1337,7 @@ footer p{
     footer p{
         text-align: center;
         font-family: 'Avenir Next Ultra light';
-        font-size: 12px;
+        font-size: 13px;
         color: rgb(242, 238, 237);
         padding-top: 30px;
         letter-spacing: 5px;
@@ -1430,7 +1430,7 @@ footer p{
         font-family: 'fot-tsukubrdgothic-std',sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 12px;
+        font-size: 13px;
         /* margin-bottom: 15px; */
         line-height: 25px;
     }
@@ -1472,7 +1472,7 @@ footer p{
     .explanation p{
         color: #172852;
         font-family: 'fot-tsukubrdgothic-std',sans-serif;
-        font-size:12px;
+        font-size:13px;
         line-height: 30px;
     }
     
