@@ -188,8 +188,10 @@ header{
 .title{
     font-family: 'Avenir',sans-serif;
     color: #172852;
+    font-weight: 600;
     font-size: 60px;
     text-align: center;
+    letter-spacing: 3px;
 }
 
 .title_jp{
@@ -942,10 +944,11 @@ footer p{
     
     .title{
         font-family: 'Avenir',sans-serif;
-        font-weight: 400;
+        font-weight: 600;
         color: #172852;
         font-size: 30px;
         text-align: center;
+        letter-spacing: 2px;
     }
     
     .title_jp{
