@@ -15,15 +15,15 @@
     src: url(/Avenir_Next.ttc);
 }
 
-/* PC版 */
-
-@media screen and (min-width:480px){
-
-
 body{
     background-color: #f2eeed;
     width: 100vw;
 }
+
+
+/* PC版 */
+
+@media screen and (min-width:480px){
 
 .wrap{
     overflow: hidden;
@@ -771,11 +771,6 @@ footer p{
 /* SP版 */
 
 @media screen and (max-width:480px){
-
-    body{
-        background-color: #f2eeed;
-        width: 100vw;
-    }
     
     .wrap{
         overflow: hidden;
@@ -1131,7 +1126,6 @@ footer p{
     
     .item_info{
         display: flex;
-        flex-flow: wrap;
         justify-content: space-between;
         width: 75vw;
     }
@@ -1310,7 +1304,7 @@ footer p{
         position: relative;
         text-decoration: none;
         display: inline-block;
-        background:rgb(242, 238, 237);
+        background:#f2eeed;
         color:#172852;
         padding: 10px 0px;
         border: 1px solid #172852;
@@ -1326,8 +1320,8 @@ footer p{
     }
     
     .page_top:hover{
-        background:#ddd;
-        color: #172852;
+        background:#172852;
+        color: #f2eeed;
     }
     
     footer{
