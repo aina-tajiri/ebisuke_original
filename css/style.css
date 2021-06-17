@@ -444,8 +444,8 @@ header{
 }
 
 .recipe_button:hover{
-	background:#ddd;
-    color: #172852;
+	background:#172852;
+    color: #fff;
 }
 
 .recipe_button::after{
@@ -464,6 +464,8 @@ header{
 
 .recipe_button:hover::after{
     right: 11px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
 }
 
 .jump_box{
@@ -554,7 +556,7 @@ header{
 	position: relative;
 	text-decoration: none;
 	display: inline-block;
-	background:rgb(242, 238, 237);
+	background:#f2eeed;
 	color:#172852;
     padding: 15px 0px;
     border: 3px solid #172852;
@@ -570,8 +572,8 @@ header{
 }
 
 .page_top:hover{
-	background:#ddd;
-    color: #172852;
+	background:#172852;
+    color: #f2eeed;
 }
 
 footer{
@@ -635,8 +637,8 @@ footer p{
 }
 
 .recipe_pdf:hover{
-	background:rgb(242, 238, 237);
-    color: #b76a4f;
+	background:#b76a4f;
+    color: #f2eeed;
 }
 
 .recipe_pdf::after{
@@ -655,6 +657,8 @@ footer p{
 
 .recipe_pdf:hover::after{
     right: 11px;
+    border-top: 2px solid #f2eeed;
+    border-right: 2px solid #f2eeed;
 }
 
 .material{
@@ -737,7 +741,7 @@ footer p{
     padding: 5px 5px 5px 7px;
 }
 
-.page_top_recipe{
+.back_recipe{
     font-family: 'fot-tsukubrdgothic-std',sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -759,9 +763,9 @@ footer p{
     border-radius: 15px;
 }
 
-.page_top_recipe:hover{
-	background:#ddd;
-    color: #172852;
+.back_recipe:hover{
+	background:#172852;
+    color: #fff;
 }
 
 
@@ -1197,8 +1201,8 @@ footer p{
     }
     
     .recipe_button:hover{
-        background:#ddd;
-        color: #172852;
+        background:#172852;
+        color: #fff;
     }
     
     .recipe_button::after{
@@ -1217,6 +1221,8 @@ footer p{
     
     .recipe_button:hover::after{
         right: 11px;
+        border-top: 1px solid #fff;
+        border-right: 1px solid #fff;
     }
     
     .jump_box{
@@ -1231,7 +1237,7 @@ footer p{
     }
     
     .jump_box:hover{
-        background-color: #ddd;
+        background-color: #172852;
     }
     
     .arrow {
@@ -1240,6 +1246,10 @@ footer p{
         padding-left: 20px;
         color: #172852;
         text-decoration: none;
+    }
+
+    .arrow:hover{
+        color: #f2eeed;
     }
     
     .arrow::before {
@@ -1255,6 +1265,11 @@ footer p{
         margin: 4px  0px;
         transform: rotate(-45deg);
       }
+
+      .arrow:hover:before {
+        border-top: solid 1px #f2eeed;
+        border-right: solid 1px #f2eeed;
+      }  
     
     .more_text{
         color: #172852;
@@ -1406,6 +1421,8 @@ footer p{
     
     .recipe_pdf:hover::after{
         right: 11px;
+        border-top: 1px solid #fff;
+        border-right: 1px solid #fff;
     }
     
     .material h1{
@@ -1492,7 +1509,7 @@ footer p{
         padding: 5px 5px 5px 7px;
     }
     
-    .page_top_recipe{
+    .back_recipe{
         font-family: 'fot-tsukubrdgothic-std',sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -1502,7 +1519,7 @@ footer p{
         background:#fff;
         color:#172852;
         padding: 10px 0px;
-        border: 2px solid #172852;
+        border: 1px solid #172852;
         text-align: center;
         outline: none;
         letter-spacing: 3px;
@@ -1514,9 +1531,9 @@ footer p{
         border-radius: 10px;
     }
     
-    .page_top_recipe:hover{
-        background:#ddd;
-        color: #172852;
+    .back_recipe:hover{
+        background:#172852;
+        color: #fff;
     }
     
 }
