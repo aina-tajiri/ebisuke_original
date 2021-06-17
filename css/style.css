@@ -491,6 +491,10 @@ header{
     text-decoration: none;
 }
 
+.arrow {
+    color: #f2eeed;
+}
+
 .arrow::before {
     content: '';
     width: 25px;
@@ -504,6 +508,11 @@ header{
     margin: 12px  0px;
     transform: rotate(-45deg);
   }
+
+  .arrow:hover:before {
+    border-top: solid 1px #f2eeed;
+    border-right: solid 1px #f2eeed;
+  }  
 
 .more_text{
     color: #172852;
