@@ -477,21 +477,23 @@ header{
     border-radius: 100px;
     margin-top: 60px;
     transition: 0.3s;
+    color: #172852;
 }
 
 .jump_box:hover{
-    background-color: #ddd;
+    background-color: #172852;
+    color: #f2eeed;
 }
 
 .arrow {
     position: relative;
     display: inline-block;
     padding-left: 20px;
-    color: #172852;
+    /* color: #172852; */
     text-decoration: none;
 }
 
-.arrow {
+.arrow:hover{
     color: #f2eeed;
 }
 
