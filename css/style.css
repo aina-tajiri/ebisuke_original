@@ -1044,7 +1044,7 @@ footer p{
         font-style: normal;
         text-decoration: none;
         padding: 0px 10px;
-        border: 2px solid #b76a4f;
+        border: 1px solid #b76a4f;
         border-radius: 50px;
         text-align: center;
         letter-spacing: 4px;
@@ -1053,7 +1053,7 @@ footer p{
     
     .recipe_list li:hover a{
         transition: .3s;
-        border: 2px solid #b76a4f;
+        border: 1px solid #b76a4f;
         background: #b76a4f;
         color: rgb(242, 238, 237);
     }
@@ -1192,7 +1192,7 @@ footer p{
         background:#fff;
         color:#172852;
         padding: 3px 50px 3px 27px;
-        border: 1.8px solid #172852;
+        border: 1px solid #172852;
         border-radius: 100px;
         text-align: center;
         outline: none;
@@ -1313,7 +1313,7 @@ footer p{
         background:rgb(242, 238, 237);
         color:#172852;
         padding: 10px 0px;
-        border: 2px solid #172852;
+        border: 1px solid #172852;
         text-align: center;
         outline: none;
         letter-spacing: 3px;
@@ -1403,8 +1403,8 @@ footer p{
         right: 6px;
         width: 5px;
         height: 5px;
-        border-top: 1.5px solid #b76a4f;
-        border-right: 1.5px solid #b76a4f;
+        border-top: 1px solid #b76a4f;
+        border-right: 1px solid #b76a4f;
         transform: rotate(45deg);
         margin-right: 20px;
         transition: all .3s;
