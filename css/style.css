@@ -373,6 +373,7 @@ header{
 
 .item_info{
     display: flex;
+    flex-flow: wrap;
     justify-content: space-between;
     width: 500px;
     margin-top: 30px;
@@ -592,7 +593,7 @@ footer p{
 
 
 .page_box{
-    margin: 140px 4vw 40px 4vw;
+    margin: 150px 4vw 40px 4vw;
     background-color: #fff;
     padding: 110px;
 }
@@ -700,7 +701,7 @@ footer p{
 .amount_material{
     display: flex;
     justify-content: space-between;
-    width: 500px;
+    width: 510px;
     text-align: right;
     margin-bottom: 50px;
 }
@@ -1130,6 +1131,7 @@ footer p{
     
     .item_info{
         display: flex;
+        flex-flow: wrap;
         justify-content: space-between;
         width: 75vw;
     }
